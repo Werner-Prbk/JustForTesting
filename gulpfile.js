@@ -15,16 +15,16 @@ const comments = require("gulp-header-comment");
 var path = {
   src: {
     // source paths
-    html: "doc/*.html",
-    htminc: "doc/partials/**/*",
-    incdir: "doc/partials/",
-    plugins: "doc/plugins/**/*",
-    js: "doc/js/*.js",
-    scss: "doc/scss/**/*.scss",
-    images: "doc/images/**/*.+(png|jpg|jpeg|gif|svg|webp|ico)",
-    blur: "doc/images/**/*.+(jpg|jpeg|webp)",
-    fonts: "doc/fonts/**/*.+(eot|ttf|woff|woff2|otf)",
-    static: "doc/static/**/*",
+    html: "docs/*.html",
+    htminc: "docs/partials/**/*",
+    incdir: "docs/partials/",
+    plugins: "docs/plugins/**/*",
+    js: "docs/js/*.js",
+    scss: "docs/scss/**/*.scss",
+    images: "docs/images/**/*.+(png|jpg|jpeg|gif|svg|webp|ico)",
+    blur: "docs/images/**/*.+(jpg|jpeg|webp)",
+    fonts: "docs/fonts/**/*.+(eot|ttf|woff|woff2|otf)",
+    static: "docs/static/**/*",
   },
   build: {
     // build paths
